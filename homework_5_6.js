@@ -9,5 +9,5 @@ arr2.forEach(function(item,index,array) {
 })
 
 
-
+console.log(isSame)
 console.log(`Все элементы в массиве ${arr2} ${isSame ? 'одинаковые' : 'неодинаковые'}`)

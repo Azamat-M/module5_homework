@@ -5,10 +5,9 @@ let odd, even, zeroInd
 
 zeroInd = arr3[0]
 
-newArr3 = arr3.slice(1)
+let newArr3 = (zeroInd) ? arr3.slice(1) : arr3
 
 let newArr3Len = newArr3.length
-console.log(newArr3)
 
 if(newArr3Len % 2 === 0) {
     odd = even = newArr3Len /2
